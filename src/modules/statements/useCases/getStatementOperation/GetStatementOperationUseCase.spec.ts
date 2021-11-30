@@ -29,7 +29,7 @@ describe('GetStatementOperationUseCase', () => {
       password: 'test@example.com'
     })
 
-    const statement ={
+    const statement = {
       user_id: user.id,
       type: "deposit",
       amount: 100,
